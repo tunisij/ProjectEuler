@@ -31,17 +31,30 @@ package package1;
  * @author john
  * @version 12/27/13
  *********************************************************************/
-public class Problem11 {
+public class Problem11() {
 	long begin;
 	long end;
+	int greatestProduct = 0;
+	int[][] grid;
 	
-	public int productOfGreatestAdjacent(String grid){
-		begin = System.currentTimeMillis();
-		int sum = 0;
+	public Problem11(int[][] grid){
+		this.grid = grid;
+	}
+	
+	private void checkHorizontal(){
+		for()
+	}
+	
+	private void checkVertical(){
 		
-
-		end = System.currentTimeMillis();
-		return sum;
+	}
+	
+	private void checkPositiveDiagonal(){
+		
+	}
+	
+	private void checkNegativeDiagonal(){
+		
 	}
 
 	public static void main(String[] args){
